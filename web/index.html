@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Practica 01 - Plataforma Web</title>
+    <link rel="stylesheet" href="styles/main.css" type="text/css"/>
+</head>
+<body>
+     
+    <p>Introduce tu nombre y tu contraseña para ingresar.</p>
+       
+  <div class="box" method="post">
+  <form action="login" method="post">
+    <div>INICIO DE SESION</div>
+    <div class="input_control">
+         <label  class="pad_top" for="inputName" <i class="icon-user icon-3x"></i>>Usuario:</label>        
+        <input type="text"  id="inputName"   placeholder="Your Name" name="user" required><br> 
+             
+    </div>
+    <div class="input_control">
+        <label class="pad_top" for="inputName" ><i class="icon-asterisk icon-3x"></i>Contraseña:</label>        
+        <input type="password" id="inputPassword"  placeholder="******" name="pass" required><br>   
+        
+   
+        
+    </div>
+    <div>
+      <label>&nbsp;</label>   
+      <button type="submit" class="btn">LOGIN <i class="icon-key"></i></button>
+       
+    </div>
+  </form>
+</div>
+
+    
+    
+    
+</body>
+</html>
